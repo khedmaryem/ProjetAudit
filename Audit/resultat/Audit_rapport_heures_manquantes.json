@@ -1,0 +1,1273 @@
+{
+    "summary": {
+        "total_modules_maquette": 36,
+        "modules_avec_heures_manquantes": 25,
+        "modules_avec_erreurs": 27,
+        "doublons_exact_ignores": 0,
+        "g2_ignores": 55,
+        "hors_maquette_ignores": 801,
+        "events_comptes": 447
+    },
+    "modules": [
+        {
+            "code_module": "INFO501",
+            "heures_maquette": {
+                "CM": 12.0,
+                "TD": 10.5,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 12.0,
+                "TD": 10.5,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 4.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 4.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO502",
+            "heures_maquette": {
+                "CM": 6.0,
+                "TD": 4.5,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 4.5,
+                "TD": 4.5,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 2.5,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 1.5,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 2.5
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO634",
+            "heures_maquette": {
+                "CM": 9.0,
+                "TD": 21.0,
+                "TP": 8.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 9.0,
+                "TD": 21.0,
+                "TP": 8.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO733",
+            "heures_maquette": {
+                "CM": 18.0,
+                "TD": 16.0,
+                "TP": 4.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 18.0,
+                "TD": 16.0,
+                "TP": 4.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "ISOC531",
+            "heures_maquette": {
+                "CM": 13.5,
+                "TD": 22.5,
+                "TP": 4.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 13.5,
+                "TD": 22.5,
+                "TP": 4.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": false
+        },
+        {
+            "code_module": "PROJ531",
+            "heures_maquette": {
+                "CM": 6.0,
+                "TD": 6.0,
+                "TP": 28.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 6.0,
+                "TD": 6.0,
+                "TP": 28.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": false
+        },
+        {
+            "code_module": "INFO631",
+            "heures_maquette": {
+                "CM": 10.5,
+                "TD": 10.5,
+                "TP": 20.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 9.0,
+                "TD": 10.5,
+                "TP": 20.0,
+                "PROJET": 0.0,
+                "EXAMEN": 2.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 1.5,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 2.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "MATH531",
+            "heures_maquette": {
+                "CM": 12.0,
+                "TD": 12.0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 12.0,
+                "TD": 12.0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.5,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.5
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO632",
+            "heures_maquette": {
+                "CM": 10.5,
+                "TD": 13.5,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 10.5,
+                "TD": 13.5,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": false
+        },
+        {
+            "code_module": "ISOC631",
+            "heures_maquette": {
+                "CM": 13.5,
+                "TD": 15.0,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 13.5,
+                "TD": 12.0,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 3.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "PROJ632",
+            "heures_maquette": {
+                "CM": 0.0,
+                "TD": 30.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 30.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": false
+        },
+        {
+            "code_module": "PROJ631",
+            "heures_maquette": {
+                "CM": 0.0,
+                "TD": 42.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 42.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": false
+        },
+        {
+            "code_module": "DATA731",
+            "heures_maquette": {
+                "CM": 12.0,
+                "TD": 0.0,
+                "TP": 24.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 10.5,
+                "TD": 0.0,
+                "TP": 24.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 1.5,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO731",
+            "heures_maquette": {
+                "CM": 13.5,
+                "TD": 22.5,
+                "TP": 4.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 12.0,
+                "TD": 32.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 1.5,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 1.5,
+                "TD": 0,
+                "TP": 4.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 9.5,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 1.5
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO732",
+            "heures_maquette": {
+                "CM": 7.5,
+                "TD": 6.0,
+                "TP": 24.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 6.0,
+                "TD": 6.0,
+                "TP": 24.0,
+                "PROJET": 0.0,
+                "EXAMEN": 2.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 1.5,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 2.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "PROJ731",
+            "heures_maquette": {
+                "CM": 0.0,
+                "TD": 20.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 20.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": false
+        },
+        {
+            "code_module": "DATA732",
+            "heures_maquette": {
+                "CM": 12.0,
+                "TD": 23.5,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 12.0,
+                "TD": 19.5,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 4.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO734",
+            "heures_maquette": {
+                "CM": 12.0,
+                "TD": 24.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 10.5,
+                "TD": 24.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 1.5,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "ISOC731",
+            "heures_maquette": {
+                "CM": 15.0,
+                "TD": 21.0,
+                "TP": 4.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 16.0,
+                "TD": 8.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0,
+                "TD": 13.0,
+                "TP": 4.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 1.0,
+                "TD": 0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "DATA831",
+            "heures_maquette": {
+                "CM": 7.5,
+                "TD": 0.0,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 6.0,
+                "TD": 12.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 1.5,
+                "TD": 0,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 12.0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "DATA832",
+            "heures_maquette": {
+                "CM": 9.0,
+                "TD": 9.0,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 7.5,
+                "TD": 6.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 1.5,
+                "TD": 3.0,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO831",
+            "heures_maquette": {
+                "CM": 9.0,
+                "TD": 9.0,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 9.0,
+                "TD": 7.5,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 1.5,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 1.5,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 1.5
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "ISOC831",
+            "heures_maquette": {
+                "CM": 30.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 16.5,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 7.0
+            },
+            "heures_manquantes": {
+                "CM": 13.5,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO832",
+            "heures_maquette": {
+                "CM": 12.0,
+                "TD": 12.0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 9.0,
+                "TD": 9.0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 1.5,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 3.0,
+                "TD": 3.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 1.5
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO833",
+            "heures_maquette": {
+                "CM": 12.0,
+                "TD": 13.5,
+                "TP": 15.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 10.5,
+                "TD": 13.5,
+                "TP": 12.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 1.5,
+                "TD": 0.0,
+                "TP": 3.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0.0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO834",
+            "heures_maquette": {
+                "CM": 6.0,
+                "TD": 6.0,
+                "TP": 28.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 7.5,
+                "TD": 7.5,
+                "TP": 24.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0,
+                "TD": 0,
+                "TP": 4.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 1.5,
+                "TD": 1.5,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "PROJ831",
+            "heures_maquette": {
+                "CM": 0.0,
+                "TD": 20.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 20.0,
+                "PROJET": 4.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 20.0,
+                "TP": 0,
+                "PROJET": 0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0,
+                "TP": 20.0,
+                "PROJET": 4.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO931",
+            "heures_maquette": {
+                "CM": 12.0,
+                "TD": 12.0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 12.0,
+                "TD": 12.0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "INFO932",
+            "heures_maquette": {
+                "CM": 7.5,
+                "TD": 7.5,
+                "TP": 24.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 7.5,
+                "TD": 7.5,
+                "TP": 24.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0,
+                "TD": 0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "PROJ931",
+            "heures_maquette": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 40.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 40.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "DATA931",
+            "heures_maquette": {
+                "CM": 12.0,
+                "TD": 12.0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 12.0,
+                "TD": 12.0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": false
+        },
+        {
+            "code_module": "ISOC931",
+            "heures_maquette": {
+                "CM": 6.0,
+                "TD": 12.0,
+                "TP": 20.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 6.0,
+                "TD": 12.0,
+                "TP": 20.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": false
+        },
+        {
+            "code_module": "PROJ932",
+            "heures_maquette": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 40.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 40.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": false,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": false
+        },
+        {
+            "code_module": "INFO633",
+            "heures_maquette": {
+                "CM": 0.0,
+                "TD": 13.5,
+                "TP": 10.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 16.0,
+                "TP": 0.0,
+                "PROJET": 16.0,
+                "EXAMEN": 7.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0,
+                "TP": 10.0,
+                "PROJET": 0,
+                "EXAMEN": 0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 2.5,
+                "TP": 0,
+                "PROJET": 16.0,
+                "EXAMEN": 7.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "PROJ901",
+            "heures_maquette": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 40.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 40.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0.0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": false,
+            "a_une_erreur": true
+        },
+        {
+            "code_module": "PROJ832",
+            "heures_maquette": {
+                "CM": 4.0,
+                "TD": 16.0,
+                "TP": 0.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_planifiees_ADE": {
+                "CM": 4.0,
+                "TD": 0.0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0,
+                "AUTRE": 0.0
+            },
+            "heures_manquantes": {
+                "CM": 0.0,
+                "TD": 16.0,
+                "TP": 0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "heures_en_trop": {
+                "CM": 0.0,
+                "TD": 0,
+                "TP": 16.0,
+                "PROJET": 0.0,
+                "EXAMEN": 0.0
+            },
+            "a_des_heures_manquantes": true,
+            "a_des_heures_en_trop": true,
+            "a_une_erreur": true
+        }
+    ]
+}

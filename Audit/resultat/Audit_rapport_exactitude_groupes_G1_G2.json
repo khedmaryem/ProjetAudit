@@ -1,0 +1,147 @@
+{
+    "summary": {
+        "modules_avec_g1_g2": 11,
+        "modules_equilibres": 11,
+        "modules_non_equilibres": 0
+    },
+    "modules": [
+        {
+            "code_module": "EASI501",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 12.0,
+                    "heures_G2": 12.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "MATH531",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 16.0,
+                    "heures_G2": 16.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "INFO641",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 20.0,
+                    "heures_G2": 20.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "INFO631",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 20.0,
+                    "heures_G2": 20.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "INFO633",
+            "comparaison_groupes": {
+                "TD": {
+                    "heures_G1": 16.0,
+                    "heures_G2": 16.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                },
+                "PROJET": {
+                    "heures_G1": 16.0,
+                    "heures_G2": 16.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "INFO632",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 16.0,
+                    "heures_G2": 16.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "PROJ531",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 28.0,
+                    "heures_G2": 28.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "INFO502",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 12.0,
+                    "heures_G2": 12.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "EASI541",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 20.0,
+                    "heures_G2": 20.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "ISOC531",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 4.0,
+                    "heures_G2": 4.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        },
+        {
+            "code_module": "ISOC631",
+            "comparaison_groupes": {
+                "TP": {
+                    "heures_G1": 12.0,
+                    "heures_G2": 12.0,
+                    "ecart": 0.0,
+                    "statut": "OK"
+                }
+            },
+            "statut_global": "OK"
+        }
+    ]
+}

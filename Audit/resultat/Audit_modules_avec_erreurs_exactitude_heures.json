@@ -1,0 +1,346 @@
+{
+    "nombre_modules_avec_erreurs": 27,
+    "modules": [
+        {
+            "code_module": "INFO502",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 6.0,
+                    "heures_planifiees_ADE": 4.5,
+                    "ecart": -1.5
+                },
+                "EXAMEN": {
+                    "heures_maquette": 0.0,
+                    "heures_planifiees_ADE": 2.5,
+                    "ecart": 2.5
+                }
+            }
+        },
+        {
+            "code_module": "INFO634",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 9.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -9.0
+                },
+                "TD": {
+                    "heures_maquette": 21.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -21.0
+                },
+                "TP": {
+                    "heures_maquette": 8.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -8.0
+                }
+            }
+        },
+        {
+            "code_module": "INFO733",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 18.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -18.0
+                },
+                "TD": {
+                    "heures_maquette": 16.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -16.0
+                },
+                "TP": {
+                    "heures_maquette": 4.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -4.0
+                }
+            }
+        },
+        {
+            "code_module": "INFO631",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 10.5,
+                    "heures_planifiees_ADE": 9.0,
+                    "ecart": -1.5
+                },
+                "EXAMEN": {
+                    "heures_maquette": 0.0,
+                    "heures_planifiees_ADE": 2.0,
+                    "ecart": 2.0
+                }
+            }
+        },
+       
+        {
+            "code_module": "ISOC631",
+            "erreurs": {
+                "TD": {
+                    "heures_maquette": 15.0,
+                    "heures_planifiees_ADE": 12.0,
+                    "ecart": -3.0
+                }
+            }
+        },
+        {
+            "code_module": "DATA731",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 12.0,
+                    "heures_planifiees_ADE": 10.5,
+                    "ecart": -1.5
+                }
+            }
+        },
+        {
+            "code_module": "INFO731",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 13.5,
+                    "heures_planifiees_ADE": 12.0,
+                    "ecart": -1.5
+                },
+                "TD": {
+                    "heures_maquette": 22.5,
+                    "heures_planifiees_ADE": 32.0,
+                    "ecart": 9.5
+                },
+                "TP": {
+                    "heures_maquette": 4.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -4.0
+                },
+                "EXAMEN": {
+                    "heures_maquette": 0.0,
+                    "heures_planifiees_ADE": 1.5,
+                    "ecart": 1.5
+                }
+            }
+        },
+        {
+            "code_module": "INFO732",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 7.5,
+                    "heures_planifiees_ADE": 6.0,
+                    "ecart": -1.5
+                },
+                "EXAMEN": {
+                    "heures_maquette": 0.0,
+                    "heures_planifiees_ADE": 2.0,
+                    "ecart": 2.0
+                }
+            }
+        },
+        {
+            "code_module": "DATA732",
+            "erreurs": {
+                "TD": {
+                    "heures_maquette": 23.5,
+                    "heures_planifiees_ADE": 19.5,
+                    "ecart": -4.0
+                }
+            }
+        },
+        {
+            "code_module": "INFO734",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 12.0,
+                    "heures_planifiees_ADE": 10.5,
+                    "ecart": -1.5
+                }
+            }
+        },
+        {
+            "code_module": "ISOC731",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 15.0,
+                    "heures_planifiees_ADE": 16.0,
+                    "ecart": 1.0
+                },
+                "TD": {
+                    "heures_maquette": 21.0,
+                    "heures_planifiees_ADE": 8.0,
+                    "ecart": -13.0
+                },
+                "TP": {
+                    "heures_maquette": 4.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -4.0
+                }
+            }
+        },
+        {
+            "code_module": "DATA831",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 7.5,
+                    "heures_planifiees_ADE": 6.0,
+                    "ecart": -1.5
+                },
+                "TD": {
+                    "heures_maquette": 0.0,
+                    "heures_planifiees_ADE": 12.0,
+                    "ecart": 12.0
+                },
+                "TP": {
+                    "heures_maquette": 12.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -12.0
+                }
+            }
+        },
+        {
+            "code_module": "DATA832",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 9.0,
+                    "heures_planifiees_ADE": 7.5,
+                    "ecart": -1.5
+                },
+                "TD": {
+                    "heures_maquette": 9.0,
+                    "heures_planifiees_ADE": 6.0,
+                    "ecart": -3.0
+                },
+                "TP": {
+                    "heures_maquette": 12.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -12.0
+                }
+            }
+        },
+        {
+            "code_module": "INFO831",
+            "erreurs": {
+                "TD": {
+                    "heures_maquette": 9.0,
+                    "heures_planifiees_ADE": 7.5,
+                    "ecart": -1.5
+                },
+                "EXAMEN": {
+                    "heures_maquette": 0.0,
+                    "heures_planifiees_ADE": 1.5,
+                    "ecart": 1.5
+                }
+            }
+        },
+        {
+            "code_module": "ISOC831",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 30.0,
+                    "heures_planifiees_ADE": 16.5,
+                    "ecart": -13.5
+                }
+            }
+        },
+        {
+            "code_module": "INFO832",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 12.0,
+                    "heures_planifiees_ADE": 9.0,
+                    "ecart": -3.0
+                },
+                "TD": {
+                    "heures_maquette": 12.0,
+                    "heures_planifiees_ADE": 9.0,
+                    "ecart": -3.0
+                },
+                "EXAMEN": {
+                    "heures_maquette": 0.0,
+                    "heures_planifiees_ADE": 1.5,
+                    "ecart": 1.5
+                }
+            }
+        },
+        {
+            "code_module": "INFO833",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 12.0,
+                    "heures_planifiees_ADE": 10.5,
+                    "ecart": -1.5
+                },
+                "TP": {
+                    "heures_maquette": 15.0,
+                    "heures_planifiees_ADE": 12.0,
+                    "ecart": -3.0
+                }
+            }
+        },
+        {
+            "code_module": "INFO834",
+            "erreurs": {
+                "CM": {
+                    "heures_maquette": 6.0,
+                    "heures_planifiees_ADE": 7.5,
+                    "ecart": 1.5
+                },
+                "TD": {
+                    "heures_maquette": 6.0,
+                    "heures_planifiees_ADE": 7.5,
+                    "ecart": 1.5
+                },
+                "TP": {
+                    "heures_maquette": 28.0,
+                    "heures_planifiees_ADE": 24.0,
+                    "ecart": -4.0
+                }
+            }
+        },
+        {
+            "code_module": "PROJ831",
+            "erreurs": {
+                "TD": {
+                    "heures_maquette": 20.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -20.0
+                },
+                "TP": {
+                    "heures_maquette": 0.0,
+                    "heures_planifiees_ADE": 20.0,
+                    "ecart": 20.0
+                }
+            }
+        },
+        {
+            "code_module": "PROJ931",
+            "erreurs": {
+                "TP": {
+                    "heures_maquette": 40.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -40.0
+                }
+            }
+        },
+        {
+            "code_module": "PROJ901",
+            "erreurs": {
+                "TP": {
+                    "heures_maquette": 40.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -40.0
+                }
+            }
+        },
+        {
+            "code_module": "PROJ832",
+            "erreurs": {
+                "TD": {
+                    "heures_maquette": 16.0,
+                    "heures_planifiees_ADE": 0.0,
+                    "ecart": -16.0
+                },
+                "TP": {
+                    "heures_maquette": 0.0,
+                    "heures_planifiees_ADE": 16.0,
+                    "ecart": 16.0
+                }
+            }
+        }
+    ]
+}
