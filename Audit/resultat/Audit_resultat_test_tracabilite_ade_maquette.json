@@ -1,0 +1,2506 @@
+{
+    "audit_name": "Résultat de test - Traçabilité ADE vers Maquette",
+    "generated_at": "2026-04-30T09:42:09.509706",
+    "test_definition": {
+        "dimension": "Traçabilité",
+        "objective": "Vérifier que chaque séance pédagogique ADE peut être rattachée à un module officiel de la maquette.",
+        "rule": "Une séance pédagogique est traçable si son code module ADE existe dans MAQUETTE_IDU.",
+        "scope": "Uniquement les événements classés TEACHING."
+    },
+    "summary": {
+        "total_teaching_events": 1006,
+        "events_traced_to_maquette": 538,
+        "events_not_traced_to_maquette": 458,
+        "events_without_code": 10,
+        "traceability_rate_percent": 53.48,
+        "top_untraced_codes": {
+            "MATH501": 33,
+            "EASI501": 29,
+            "MATH641": 26,
+            "LANG601": 25,
+            "EASI541": 25,
+            "LANG701": 25,
+            "INFO641": 23,
+            "LANG801": 23,
+            "LANG501": 22,
+            "LANG901": 20,
+            "DDRS501": 19,
+            "INFO743": 18,
+            "SHES901": 18,
+            "LANG500": 16,
+            "LANG600": 16
+        }
+    },
+    "simple_result_table": [
+        {
+            "code_ade": "MATH501",
+            "nombre": 33,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "EASI501",
+            "nombre": 29,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "MATH641",
+            "nombre": 26,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "LANG601",
+            "nombre": 25,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "EASI541",
+            "nombre": 25,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "LANG701",
+            "nombre": 25,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "INFO641",
+            "nombre": 23,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "LANG801",
+            "nombre": 23,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "LANG501",
+            "nombre": 22,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "LANG901",
+            "nombre": 20,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "DDRS501",
+            "nombre": 19,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "INFO743",
+            "nombre": 18,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "SHES901",
+            "nombre": 18,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "LANG500",
+            "nombre": 16,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "LANG600",
+            "nombre": 16,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "MATH741",
+            "nombre": 15,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "SHES602",
+            "nombre": 14,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "SHES601",
+            "nombre": 13,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "MATH500",
+            "nombre": 13,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "SHES803",
+            "nombre": 13,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "SHES802",
+            "nombre": 13,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "SHES703",
+            "nombre": 10,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "LANG800",
+            "nombre": 8,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "LANG700",
+            "nombre": 8,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "SHES501",
+            "nombre": 7,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "SHES505",
+            "nombre": 6,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+        },
+        {
+            "code_ade": "SANS_CODE",
+            "nombre": 10,
+            "probleme": "Aucun code module détecté",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Séance pédagogique sans code module exploitable"
+        }
+    ],
+    "interpretation": {
+        "main_result": "Des séances existent dans ADE sans source de référence dans la maquette.",
+        "audit_conclusion": "Il s’agit d’un défaut de traçabilité entre ADE et la maquette officielle.",
+        "business_impact": "Ces séances ne peuvent pas être reliées automatiquement à un module officiel ni utilisées de façon fiable pour comparer les heures prévues et planifiées."
+    },
+    "detailed_anomalies": [
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "MATH501",
+            "count_events": 33,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "MATH501_ET_tiers_temps",
+                    "code_ade": "MATH501",
+                    "type": "EXAM",
+                    "date": "2026-01-12",
+                    "start": "08:45:00",
+                    "end": "09:15:00",
+                    "duration_hours": 0.5,
+                    "teachers": [
+                        "ADLOFF CATHERINE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "MATH501_CM",
+                    "code_ade": "MATH501",
+                    "type": "CM",
+                    "date": "2025-11-25",
+                    "start": "15:15:00",
+                    "end": "16:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "ADLOFF CATHERINE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-B014"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "MATH501_TDG",
+                    "code_ade": "MATH501",
+                    "type": "TD",
+                    "date": "2025-12-09",
+                    "start": "12:15:00",
+                    "end": "13:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "ADLOFF CATHERINE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-A204"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "EASI501",
+            "count_events": 29,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "EASI501_TPG1_2-3",
+                    "code_ade": "EASI501",
+                    "type": "TP",
+                    "date": "2025-11-24",
+                    "start": "07:00:00",
+                    "end": "11:00:00",
+                    "duration_hours": 4.0,
+                    "teachers": [
+                        "LEPLUS FRANÇOIS"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G1"
+                    ],
+                    "rooms": [
+                        "A-A202 -ELECTROTECHNIQUE-ELECTRONIQUE"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "EASI501_TPG2_2-3",
+                    "code_ade": "EASI501",
+                    "type": "TP",
+                    "date": "2025-11-24",
+                    "start": "12:15:00",
+                    "end": "16:15:00",
+                    "duration_hours": 4.0,
+                    "teachers": [
+                        "PASSARD MICHELLE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G2"
+                    ],
+                    "rooms": [
+                        "A-A202 -ELECTROTECHNIQUE-ELECTRONIQUE"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "EASI501_CM",
+                    "code_ade": "EASI501",
+                    "type": "CM",
+                    "date": "2025-09-02",
+                    "start": "12:00:00",
+                    "end": "13:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "LEPLUS FRANÇOIS"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "MATH641",
+            "count_events": 26,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "MATH641_INGE_CM-CC",
+                    "code_ade": "MATH641",
+                    "type": "CM",
+                    "date": "2026-03-02",
+                    "start": "09:00:00",
+                    "end": "10:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "MATH641_INGE_CM",
+                    "code_ade": "MATH641",
+                    "type": "CM",
+                    "date": "2026-03-31",
+                    "start": "06:15:00",
+                    "end": "07:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C107"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "MATH641_INGE_CM",
+                    "code_ade": "MATH641",
+                    "type": "CM",
+                    "date": "2026-03-17",
+                    "start": "09:00:00",
+                    "end": "10:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "LANG601",
+            "count_events": 25,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG601 Toeic de Mai",
+                    "code_ade": "LANG601",
+                    "type": "TD",
+                    "date": "2026-05-20",
+                    "start": "06:15:00",
+                    "end": "10:15:00",
+                    "duration_hours": 4.0,
+                    "teachers": [
+                        "CLARK JULIE",
+                        "VIGNAND SYLVIE",
+                        "YVENAT SCHELLER MURIEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG601_PACY + 602",
+                    "code_ade": "LANG601",
+                    "type": "TD",
+                    "date": "2026-02-04",
+                    "start": "09:00:00",
+                    "end": "10:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "DUPRE PAMELA",
+                        "SELLIER KATRINE",
+                        "CLARK JULIE",
+                        "VIGNAND SYLVIE",
+                        "YVENAT SCHELLER MURIEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C103",
+                        "A-C104",
+                        "A-C203",
+                        "A-C204",
+                        "A-C205"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG601_PACY (Toeic seuil)+602",
+                    "code_ade": "LANG601",
+                    "type": "TD",
+                    "date": "2026-05-07",
+                    "start": "10:15:00",
+                    "end": "13:15:00",
+                    "duration_hours": 3.0,
+                    "teachers": [
+                        "SELLIER KATRINE",
+                        "CLARK JULIE",
+                        "DUPRE PAMELA",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-B014",
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "EASI541",
+            "count_events": 25,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "EASI541_CM_1-2",
+                    "code_ade": "EASI541",
+                    "type": "CM",
+                    "date": "2025-09-05",
+                    "start": "08:00:00",
+                    "end": "09:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "MARTEAU STÉPHANE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "EASI541_CM_4_Ex_TierTemps",
+                    "code_ade": "EASI541",
+                    "type": "CM",
+                    "date": "2026-01-14",
+                    "start": "08:45:00",
+                    "end": "09:15:00",
+                    "duration_hours": 0.5,
+                    "teachers": [
+                        "CUNY MICHEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "EASI541_CM_3_Ex_TiersTps",
+                    "code_ade": "EASI541",
+                    "type": "CM",
+                    "date": "2025-10-06",
+                    "start": "07:30:00",
+                    "end": "07:45:00",
+                    "duration_hours": 0.25,
+                    "teachers": [
+                        "MARTEAU STÉPHANE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "LANG701",
+            "count_events": 25,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG701_PACY+ 702",
+                    "code_ade": "LANG701",
+                    "type": "TD",
+                    "date": "2025-09-03",
+                    "start": "12:15:00",
+                    "end": "13:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "DUPRE PAMELA",
+                        "CLARK JULIE",
+                        "VIGNAND SYLVIE",
+                        "YVENAT SCHELLER MURIEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B120",
+                        "A-C203",
+                        "A-C204",
+                        "A-C205"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG701_PACY+ 702",
+                    "code_ade": "LANG701",
+                    "type": "TD",
+                    "date": "2025-09-23",
+                    "start": "13:00:00",
+                    "end": "14:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "DUPRE PAMELA",
+                        "CLARK JULIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C111",
+                        "A-C203",
+                        "A-C205",
+                        "A-C204"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG701_PACY+ 702",
+                    "code_ade": "LANG701",
+                    "type": "TD",
+                    "date": "2025-10-14",
+                    "start": "12:45:00",
+                    "end": "14:15:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "VIGNAND SYLVIE",
+                        "DUPRE PAMELA",
+                        "CLARK JULIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-C203",
+                        "A-C204",
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "INFO641",
+            "count_events": 23,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "INFO641_INGE_TP_G2",
+                    "code_ade": "INFO641",
+                    "type": "TP",
+                    "date": "2026-04-28",
+                    "start": "11:15:00",
+                    "end": "15:15:00",
+                    "duration_hours": 4.0,
+                    "teachers": [
+                        "FERRER ROMAIN"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G2"
+                    ],
+                    "rooms": [
+                        "A-C217"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "INFO641_INGE_TD_G_1-5",
+                    "code_ade": "INFO641",
+                    "type": "TD",
+                    "date": "2026-02-12",
+                    "start": "09:00:00",
+                    "end": "10:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "CIMPAN SORANA"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C215"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "INFO641_INGE_TD_G_6",
+                    "code_ade": "INFO641",
+                    "type": "TD",
+                    "date": "2026-04-14",
+                    "start": "14:45:00",
+                    "end": "16:15:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "CIMPAN SORANA"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C109"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "LANG801",
+            "count_events": 23,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG801_PACY seuls",
+                    "code_ade": "LANG801",
+                    "type": "TD",
+                    "date": "2026-03-31",
+                    "start": "11:15:00",
+                    "end": "12:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "VIGNAND SYLVIE",
+                        "CLARK JULIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B120",
+                        "A-C204",
+                        "A-C205"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG801_PACY stage toeic avril 801 seuls",
+                    "code_ade": "LANG801",
+                    "type": "TD",
+                    "date": "2026-04-22",
+                    "start": "10:30:00",
+                    "end": "13:30:00",
+                    "duration_hours": 3.0,
+                    "teachers": [
+                        "CLARK JULIE",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B120",
+                        "A-C203",
+                        "A-C205"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG801_PACY stage toeic avril+ cours 802",
+                    "code_ade": "LANG801",
+                    "type": "TD",
+                    "date": "2026-04-20",
+                    "start": "06:15:00",
+                    "end": "09:15:00",
+                    "duration_hours": 3.0,
+                    "teachers": [
+                        "CLARK JULIE",
+                        "DUPRE PAMELA",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B014",
+                        "A-C203",
+                        "A-C204",
+                        "A-C209"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "LANG501",
+            "count_events": 22,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG501_PACY",
+                    "code_ade": "LANG501",
+                    "type": "TD",
+                    "date": "2025-10-15",
+                    "start": "06:15:00",
+                    "end": "07:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "AFONSO MARINE",
+                        "VIGNAND SYLVIE",
+                        "DUPRE PAMELA",
+                        "CLARK JULIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C104",
+                        "A-C103",
+                        "A-C205",
+                        "A-C203",
+                        "A-C204"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG501_PACY",
+                    "code_ade": "LANG501",
+                    "type": "TD",
+                    "date": "2025-11-12",
+                    "start": "07:15:00",
+                    "end": "08:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "CLARK JULIE",
+                        "YVENAT SCHELLER MURIEL",
+                        "AFONSO MARINE",
+                        "DUPRE PAMELA",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120",
+                        "A-B014",
+                        "A-C204",
+                        "A-C203",
+                        "A-C205"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG501_PACY toeic blanc",
+                    "code_ade": "LANG501",
+                    "type": "TD",
+                    "date": "2025-10-22",
+                    "start": "10:30:00",
+                    "end": "13:30:00",
+                    "duration_hours": 3.0,
+                    "teachers": [
+                        "AFONSO MARINE",
+                        "CLARK JULIE",
+                        "DUPRE PAMELA",
+                        "VIGNAND SYLVIE",
+                        "YVENAT SCHELLER MURIEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B014",
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "LANG901",
+            "count_events": 20,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU5",
+                    "title": "LANG901 +902",
+                    "code_ade": "LANG901",
+                    "type": "TD",
+                    "date": "2025-12-16",
+                    "start": "12:15:00",
+                    "end": "13:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-5-Promo"
+                    ],
+                    "rooms": [
+                        "A-C103"
+                    ]
+                },
+                {
+                    "source_year": "IDU5",
+                    "title": "LANG901 +902",
+                    "code_ade": "LANG901",
+                    "type": "TD",
+                    "date": "2025-10-17",
+                    "start": "06:15:00",
+                    "end": "07:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-5-Promo"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU5",
+                    "title": "LANG901 +902",
+                    "code_ade": "LANG901",
+                    "type": "TD",
+                    "date": "2025-09-30",
+                    "start": "11:15:00",
+                    "end": "12:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-5-Promo"
+                    ],
+                    "rooms": [
+                        "A-C103"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "DDRS501",
+            "count_events": 19,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "DDRS501_TDG_3-6",
+                    "code_ade": "DDRS501",
+                    "type": "TD",
+                    "date": "2025-10-14",
+                    "start": "11:15:00",
+                    "end": "12:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "GUITTONNEAU-COTTON SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C215"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "DDRS501_CT_2emeSession",
+                    "code_ade": "DDRS501",
+                    "type": "EXAM",
+                    "date": "2026-03-23",
+                    "start": "16:30:00",
+                    "end": "17:30:00",
+                    "duration_hours": 1.0,
+                    "teachers": [
+                        "GIBUS DAVID"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C110"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "DDRS501_TDG_7-8",
+                    "code_ade": "DDRS501",
+                    "type": "TD",
+                    "date": "2025-12-19",
+                    "start": "07:15:00",
+                    "end": "08:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "PERRIN BASTIEN"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C209"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "INFO743",
+            "count_events": 18,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "INFO743_INGE_CM",
+                    "code_ade": "INFO743",
+                    "type": "CM",
+                    "date": "2025-09-02",
+                    "start": "14:45:00",
+                    "end": "16:15:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "SALAMATIAN MOHAMMAD-REZA"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C108"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "INFO743_INGE_CM",
+                    "code_ade": "INFO743",
+                    "type": "CM",
+                    "date": "2025-09-01",
+                    "start": "08:00:00",
+                    "end": "09:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "SALAMATIAN MOHAMMAD-REZA"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C105"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "INFO743_INGE_CM",
+                    "code_ade": "INFO743",
+                    "type": "CM",
+                    "date": "2025-09-17",
+                    "start": "13:00:00",
+                    "end": "14:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "ARNAEZ OLIVIER"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C107"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "SHES901",
+            "count_events": 18,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU5",
+                    "title": "SHES901_PACY_TD",
+                    "code_ade": "SHES901",
+                    "type": "TD",
+                    "date": "2025-12-15",
+                    "start": "07:15:00",
+                    "end": "08:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "SCHRIVER MURIEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-5-Promo"
+                    ],
+                    "rooms": [
+                        "A-C208"
+                    ]
+                },
+                {
+                    "source_year": "IDU5",
+                    "title": "SHES901_PACY_CM",
+                    "code_ade": "SHES901",
+                    "type": "CM",
+                    "date": "2025-10-06",
+                    "start": "08:00:00",
+                    "end": "09:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "SCHRIVER MURIEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-5-Promo"
+                    ],
+                    "rooms": [
+                        "A-C108"
+                    ]
+                },
+                {
+                    "source_year": "IDU5",
+                    "title": "SHES901_PACY_TD",
+                    "code_ade": "SHES901",
+                    "type": "TD",
+                    "date": "2025-12-15",
+                    "start": "09:00:00",
+                    "end": "10:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "SCHRIVER MURIEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-5-Promo"
+                    ],
+                    "rooms": [
+                        "A-C208"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "LANG500",
+            "count_events": 16,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG500_PACY (Soutien)",
+                    "code_ade": "LANG500",
+                    "type": "TD",
+                    "date": "2025-10-09",
+                    "start": "11:45:00",
+                    "end": "12:30:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "CLARK JULIE",
+                        "DUPRE PAMELA"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-C204"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG500_PACY (Soutien)",
+                    "code_ade": "LANG500",
+                    "type": "TD",
+                    "date": "2025-10-02",
+                    "start": "11:45:00",
+                    "end": "12:30:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "CLARK JULIE",
+                        "DUPRE PAMELA"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-C204"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG500_PACY (Soutien)",
+                    "code_ade": "LANG500",
+                    "type": "TD",
+                    "date": "2025-10-23",
+                    "start": "11:00:00",
+                    "end": "11:45:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "SELLIER KATRINE",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-C204"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "LANG600",
+            "count_events": 16,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG600_PACY (soutien)",
+                    "code_ade": "LANG600",
+                    "type": "SOUTIEN",
+                    "date": "2026-04-30",
+                    "start": "11:45:00",
+                    "end": "12:30:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "SELLIER KATRINE",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG600_PACY (soutien)",
+                    "code_ade": "LANG600",
+                    "type": "SOUTIEN",
+                    "date": "2026-02-26",
+                    "start": "14:15:00",
+                    "end": "15:00:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "SELLIER KATRINE",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-C204"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "LANG600_PACY (soutien)",
+                    "code_ade": "LANG600",
+                    "type": "SOUTIEN",
+                    "date": "2026-04-30",
+                    "start": "12:30:00",
+                    "end": "13:15:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "SELLIER KATRINE",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "MATH741",
+            "count_events": 15,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "MATH741_INGE_TD_IDU",
+                    "code_ade": "MATH741",
+                    "type": "TD",
+                    "date": "2025-11-18",
+                    "start": "07:15:00",
+                    "end": "08:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C108"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "MATH741_INGE_CM",
+                    "code_ade": "MATH741",
+                    "type": "CM",
+                    "date": "2025-11-04",
+                    "start": "07:15:00",
+                    "end": "08:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C108"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "MATH741_INGE_EX",
+                    "code_ade": "MATH741",
+                    "type": "CM",
+                    "date": "2025-12-09",
+                    "start": "15:30:00",
+                    "end": "17:00:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "SHES602",
+            "count_events": 14,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES602_PACY_CT_Session1",
+                    "code_ade": "SHES602",
+                    "type": "CM",
+                    "date": "2026-05-05",
+                    "start": "13:00:00",
+                    "end": "14:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "GARDET ELODIE",
+                        "PICAT MÉLODY"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-B014",
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES602_PACY_IDU_TD_G",
+                    "code_ade": "SHES602",
+                    "type": "TD",
+                    "date": "2026-03-18",
+                    "start": "12:15:00",
+                    "end": "13:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "PICAT MÉLODY"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C109"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES602_PACY_CM",
+                    "code_ade": "SHES602",
+                    "type": "CM",
+                    "date": "2026-01-23",
+                    "start": "15:45:00",
+                    "end": "17:15:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "PICAT MÉLODY"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "SHES601",
+            "count_events": 13,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES601_PACY_TD1_IDU_G",
+                    "code_ade": "SHES601",
+                    "type": "TD",
+                    "date": "2026-02-23",
+                    "start": "15:45:00",
+                    "end": "17:15:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BREYSSE MICHEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C109"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES601_PACY_CM",
+                    "code_ade": "SHES601",
+                    "type": "CM",
+                    "date": "2026-02-04",
+                    "start": "14:00:00",
+                    "end": "15:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BREYSSE MICHEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES601_PACY_CM",
+                    "code_ade": "SHES601",
+                    "type": "CM",
+                    "date": "2026-01-19",
+                    "start": "14:00:00",
+                    "end": "15:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BREYSSE MICHEL"
+                    ],
+                    "idu_groups": [
+                        "IDU-3"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "MATH500",
+            "count_events": 13,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "Math500_IDU",
+                    "code_ade": "MATH500",
+                    "type": "TD",
+                    "date": "2025-09-11",
+                    "start": "08:00:00",
+                    "end": "09:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BOUTEMEUR MADJID"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C109"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "Math500_IDU",
+                    "code_ade": "MATH500",
+                    "type": "TD",
+                    "date": "2025-09-26",
+                    "start": "13:15:00",
+                    "end": "14:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BOUTEMEUR MADJID"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C204"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "Math500_IDU",
+                    "code_ade": "MATH500",
+                    "type": "TD",
+                    "date": "2025-10-09",
+                    "start": "06:15:00",
+                    "end": "07:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BOUTEMEUR MADJID"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-C109"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "SHES803",
+            "count_events": 13,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "SHES803_INGE_CM",
+                    "code_ade": "SHES803",
+                    "type": "CM",
+                    "date": "2026-03-04",
+                    "start": "07:15:00",
+                    "end": "08:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "VALISE EPU-A-1",
+                        "VALISE EPU-A-2",
+                        "WOLFF CHRISTIAN"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B014"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "SHES803_INGE_CM",
+                    "code_ade": "SHES803",
+                    "type": "CM",
+                    "date": "2026-02-25",
+                    "start": "07:15:00",
+                    "end": "08:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "VALISE EPU-A-1",
+                        "VALISE EPU-A-2",
+                        "WOLFF CHRISTIAN"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B014"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "SHES803_INGE_TD-IDU-A",
+                    "code_ade": "SHES803",
+                    "type": "TD",
+                    "date": "2026-03-24",
+                    "start": "14:00:00",
+                    "end": "15:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "WOLFF CHRISTIAN"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-A"
+                    ],
+                    "rooms": [
+                        "A-A022"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "SHES802",
+            "count_events": 13,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "SHES802_INGE_TD-IDU-A-SMQ",
+                    "code_ade": "SHES802",
+                    "type": "TD",
+                    "date": "2026-05-05",
+                    "start": "06:15:00",
+                    "end": "07:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "DANILLON YANNICK"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-A"
+                    ],
+                    "rooms": [
+                        "A-C109"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "SHES802_INGE_CM_SST",
+                    "code_ade": "SHES802",
+                    "type": "CM",
+                    "date": "2026-02-06",
+                    "start": "09:00:00",
+                    "end": "10:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "POUZADOUX PIERRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B014"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "SHES802_INGE_TD-IDU-A-SST-1",
+                    "code_ade": "SHES802",
+                    "type": "TD",
+                    "date": "2026-02-24",
+                    "start": "07:15:00",
+                    "end": "08:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "POUZADOUX PIERRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-A"
+                    ],
+                    "rooms": [
+                        "A-A022"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "SHES703",
+            "count_events": 10,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "SHES703 Simulation Entretiens TP1",
+                    "code_ade": "SHES703",
+                    "type": "TP",
+                    "date": "2025-12-05",
+                    "start": "07:00:00",
+                    "end": "11:00:00",
+                    "duration_hours": 4.0,
+                    "teachers": [],
+                    "idu_groups": [
+                        "IDU-4-A1"
+                    ],
+                    "rooms": [
+                        "A-A022",
+                        "Distanciel",
+                        "Distanciel",
+                        "A-C204"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "SHES703 BIBI SUR LA TOILE - CRÉEZ UN PROFIL LINKEDIN",
+                    "code_ade": "SHES703",
+                    "type": "TD",
+                    "date": "2025-10-16",
+                    "start": "09:30:00",
+                    "end": "11:00:00",
+                    "duration_hours": 1.5,
+                    "teachers": [],
+                    "idu_groups": [
+                        "IDU-4-A"
+                    ],
+                    "rooms": [
+                        "A-C214"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "SHES703 MON ENVIRONNEMENT PROFESSIONNEL",
+                    "code_ade": "SHES703",
+                    "type": "TD",
+                    "date": "2025-09-17",
+                    "start": "08:00:00",
+                    "end": "09:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "MISLIN CAROLE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-A"
+                    ],
+                    "rooms": [
+                        "A-C213",
+                        "A-C111"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "LANG800",
+            "count_events": 8,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG800_PACY (soutien)",
+                    "code_ade": "LANG800",
+                    "type": "TD",
+                    "date": "2026-01-22",
+                    "start": "13:30:00",
+                    "end": "14:15:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "SELLIER KATRINE",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG800_PACY (soutien)",
+                    "code_ade": "LANG800",
+                    "type": "TD",
+                    "date": "2026-04-02",
+                    "start": "12:30:00",
+                    "end": "13:15:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "SELLIER KATRINE",
+                        "CLARK JULIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-B120"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG800_PACY (soutien)",
+                    "code_ade": "LANG800",
+                    "type": "TD",
+                    "date": "2026-01-22",
+                    "start": "12:45:00",
+                    "end": "13:30:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "SELLIER KATRINE",
+                        "VIGNAND SYLVIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "LANG700",
+            "count_events": 8,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG700_PACY (soutien)",
+                    "code_ade": "LANG700",
+                    "type": "TD",
+                    "date": "2025-09-18",
+                    "start": "13:30:00",
+                    "end": "14:15:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "VIGNAND SYLVIE",
+                        "CLARK JULIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B014",
+                        "A-C205"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG700_PACY (soutien)",
+                    "code_ade": "LANG700",
+                    "type": "TD",
+                    "date": "2025-09-18",
+                    "start": "12:00:00",
+                    "end": "12:45:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "VIGNAND SYLVIE",
+                        "CLARK JULIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-B014",
+                        "A-C205"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "LANG700_PACY (soutien)",
+                    "code_ade": "LANG700",
+                    "type": "TD",
+                    "date": "2025-10-02",
+                    "start": "13:00:00",
+                    "end": "13:45:00",
+                    "duration_hours": 0.75,
+                    "teachers": [
+                        "DUPRE PAMELA",
+                        "CLARK JULIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C205",
+                        "A-C204"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "SHES501",
+            "count_events": 7,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES501_Sport_TDG",
+                    "code_ade": "SHES501",
+                    "type": "TD",
+                    "date": "2025-10-24",
+                    "start": "07:00:00",
+                    "end": "10:00:00",
+                    "duration_hours": 3.0,
+                    "teachers": [
+                        "DANIERE VINCENT"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "Gymnase Dassault"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES501_Sport_TDG",
+                    "code_ade": "SHES501",
+                    "type": "TD",
+                    "date": "2025-10-17",
+                    "start": "07:00:00",
+                    "end": "10:00:00",
+                    "duration_hours": 3.0,
+                    "teachers": [
+                        "DANIERE VINCENT"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "Gymnase Dassault"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES501_Sport_TDG",
+                    "code_ade": "SHES501",
+                    "type": "TD",
+                    "date": "2025-11-07",
+                    "start": "08:00:00",
+                    "end": "11:00:00",
+                    "duration_hours": 3.0,
+                    "teachers": [
+                        "DANIERE VINCENT"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "Gymnase Dassault"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_ADE_TO_MAQUETTE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": "SHES505",
+            "count_events": 6,
+            "problem": "Code présent dans ADE mais absent de la maquette officielle.",
+            "impact": "Impossible de rattacher ces séances à une source pédagogique officielle.",
+            "recommendation": "Vérifier si ce code doit être ajouté à la maquette ou corrigé dans ADE.",
+            "examples": [
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES505_Simu_Matin_TDG",
+                    "code_ade": "SHES505",
+                    "type": "TD",
+                    "date": "2025-11-17",
+                    "start": "07:00:00",
+                    "end": "11:00:00",
+                    "duration_hours": 4.0,
+                    "teachers": [
+                        "GARDET ELODIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "Distanciel"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES505_Simu_Matin_TDG",
+                    "code_ade": "SHES505",
+                    "type": "TD",
+                    "date": "2025-11-18",
+                    "start": "07:00:00",
+                    "end": "11:00:00",
+                    "duration_hours": 4.0,
+                    "teachers": [
+                        "GARDET ELODIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "Distanciel"
+                    ]
+                },
+                {
+                    "source_year": "IDU3",
+                    "title": "SHES505_Presentation_TDG",
+                    "code_ade": "SHES505",
+                    "type": "TD",
+                    "date": "2025-11-14",
+                    "start": "12:15:00",
+                    "end": "13:45:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "GARDET ELODIE"
+                    ],
+                    "idu_groups": [
+                        "IDU-3-G-TD"
+                    ],
+                    "rooms": [
+                        "A-B120"
+                    ]
+                }
+            ]
+        },
+        {
+            "test_id": "TRACEABILITY_MISSING_MODULE_CODE",
+            "dimension": "Traçabilité",
+            "severity": "MAJEUR",
+            "status": "FAILED",
+            "code_ade": null,
+            "count_events": 10,
+            "problem": "Séances pédagogiques sans code module détectable.",
+            "impact": "Impossible de relier ces séances à une source maquette.",
+            "recommendation": "Normaliser les titres ADE pour inclure un code module.",
+            "examples": [
+                {
+                    "source_year": "IDU4",
+                    "title": "MATH_741_TD_IDU/SNI",
+                    "code_ade": null,
+                    "type": "TD",
+                    "date": "2025-12-10",
+                    "start": "14:00:00",
+                    "end": "15:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C105"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "MATH_741_TD_IDU/SNI",
+                    "code_ade": null,
+                    "type": "TD",
+                    "date": "2025-10-08",
+                    "start": "13:00:00",
+                    "end": "14:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C109"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "MATH_741_TD_IDU/SNI",
+                    "code_ade": null,
+                    "type": "TD",
+                    "date": "2025-12-03",
+                    "start": "14:00:00",
+                    "end": "15:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C107"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "MATH_741_TD_IDU/SNI",
+                    "code_ade": null,
+                    "type": "TD",
+                    "date": "2025-12-18",
+                    "start": "07:00:00",
+                    "end": "08:30:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C203"
+                    ]
+                },
+                {
+                    "source_year": "IDU4",
+                    "title": "MATH_741_TD_IDU/SNI",
+                    "code_ade": null,
+                    "type": "TD",
+                    "date": "2025-10-24",
+                    "start": "14:45:00",
+                    "end": "16:15:00",
+                    "duration_hours": 1.5,
+                    "teachers": [
+                        "BASCOP ALEXANDRE"
+                    ],
+                    "idu_groups": [
+                        "IDU-4-Promo"
+                    ],
+                    "rooms": [
+                        "A-C107"
+                    ]
+                }
+            ]
+        }
+    ],
+    "dashboard_ready": {
+        "table_rows": [
+            {
+                "code_ade": "MATH501",
+                "nombre": 33,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "EASI501",
+                "nombre": 29,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "MATH641",
+                "nombre": 26,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "LANG601",
+                "nombre": 25,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "EASI541",
+                "nombre": 25,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "LANG701",
+                "nombre": 25,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "INFO641",
+                "nombre": 23,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "LANG801",
+                "nombre": 23,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "LANG501",
+                "nombre": 22,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "LANG901",
+                "nombre": 20,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "DDRS501",
+                "nombre": 19,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "INFO743",
+                "nombre": 18,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "SHES901",
+                "nombre": 18,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "LANG500",
+                "nombre": 16,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "LANG600",
+                "nombre": 16,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "MATH741",
+                "nombre": 15,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "SHES602",
+                "nombre": 14,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "SHES601",
+                "nombre": 13,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "MATH500",
+                "nombre": 13,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "SHES803",
+                "nombre": 13,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "SHES802",
+                "nombre": 13,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "SHES703",
+                "nombre": 10,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "LANG800",
+                "nombre": 8,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "LANG700",
+                "nombre": 8,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "SHES501",
+                "nombre": 7,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "SHES505",
+                "nombre": 6,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Présent dans ADE mais absent de la maquette officielle"
+            },
+            {
+                "code_ade": "SANS_CODE",
+                "nombre": 10,
+                "probleme": "Aucun code module détecté",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Séance pédagogique sans code module exploitable"
+            }
+        ],
+        "top_untraced_codes": [
+            {
+                "code_ade": "MATH501",
+                "nombre": 33
+            },
+            {
+                "code_ade": "EASI501",
+                "nombre": 29
+            },
+            {
+                "code_ade": "MATH641",
+                "nombre": 26
+            },
+            {
+                "code_ade": "LANG601",
+                "nombre": 25
+            },
+            {
+                "code_ade": "EASI541",
+                "nombre": 25
+            },
+            {
+                "code_ade": "LANG701",
+                "nombre": 25
+            },
+            {
+                "code_ade": "INFO641",
+                "nombre": 23
+            },
+            {
+                "code_ade": "LANG801",
+                "nombre": 23
+            },
+            {
+                "code_ade": "LANG501",
+                "nombre": 22
+            },
+            {
+                "code_ade": "LANG901",
+                "nombre": 20
+            },
+            {
+                "code_ade": "DDRS501",
+                "nombre": 19
+            },
+            {
+                "code_ade": "INFO743",
+                "nombre": 18
+            },
+            {
+                "code_ade": "SHES901",
+                "nombre": 18
+            },
+            {
+                "code_ade": "LANG500",
+                "nombre": 16
+            },
+            {
+                "code_ade": "LANG600",
+                "nombre": 16
+            }
+        ]
+    }
+}

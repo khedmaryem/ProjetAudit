@@ -1,0 +1,1103 @@
+{
+    "audit_name": "Résultat de test - Traçabilité Moodle vers Maquette",
+    "generated_at": "2026-04-30T11:50:32.190891",
+    "test_definition": {
+        "dimension": "Traçabilité",
+        "objective": "Vérifier que chaque cours Moodle lié à IDU peut être rattaché à un module officiel de la maquette.",
+        "rule": "Un cours Moodle est traçable si son code extrait existe dans MAQUETTE_IDU.",
+        "scope": "Cours Moodle IDU + cours transversaux."
+    },
+    "summary": {
+        "total_moodle_courses_raw": 74,
+        "total_courses_in_scope": 50,
+        "total_teaching_or_transversal_courses": 50,
+        "courses_traced_to_maquette": 32,
+        "courses_not_traced_to_maquette": 18,
+        "courses_without_code": 0,
+        "distinct_moodle_modules": 49,
+        "distinct_modules_traced": 32,
+        "distinct_modules_not_traced": 17,
+        "traceability_rate_courses_percent": 64.0,
+        "traceability_rate_modules_percent": 65.31,
+        "top_untraced_codes": {
+            "LANG601": 2,
+            "DDRS501": 1,
+            "EASI501": 1,
+            "INFO641": 1,
+            "INFO743": 1,
+            "LANG500": 1,
+            "LANG501": 1,
+            "LANG600": 1,
+            "LANG700": 1,
+            "LANG701": 1,
+            "LANG702": 1,
+            "LANG800": 1,
+            "LANG802": 1,
+            "LANG901": 1,
+            "MATH641": 1,
+            "SHES601": 1,
+            "SHES602": 1
+        }
+    },
+    "interpretation": {
+        "main_result": "Certains cours Moodle existent sans correspondance dans la maquette officielle.",
+        "audit_conclusion": "Il existe un défaut de traçabilité entre Moodle et la maquette pour les codes absents.",
+        "business_impact": "Ces cours ne peuvent pas être reliés automatiquement à un module officiel, ce qui complique l’audit pédagogique."
+    },
+    "simple_result_table": [
+        {
+            "code_moodle": "LANG601",
+            "nombre": 2,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG601_PACY - Anglais (Niveau TOEIC non atteint)",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+                    "year": null,
+                    "semester": "S6",
+                    "course_category": "TRANSVERSAL"
+                },
+                {
+                    "coursename": "LANG601_PCHY - Anglais (niveau TOEIC non atteint)",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+                    "year": null,
+                    "semester": "S6",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "DDRS501",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "DDRS501_PACY - Développement Durable",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 5",
+                    "year": null,
+                    "semester": "S5",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "EASI501",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "EASI501_PACY - Electricité",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 5",
+                    "year": null,
+                    "semester": "S5",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "INFO641",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "INFO641_PACY - Conception et Programmation orientée objet",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+                    "year": null,
+                    "semester": "S6",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "INFO743",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "INFO743_PACY - Réseaux et systèmes répartis",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 7",
+                    "year": null,
+                    "semester": "S7",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "LANG500",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG500_PACY - Soutien Anglais",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 5",
+                    "year": null,
+                    "semester": "S5",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "LANG501",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG501_PACY - Anglais-Annecy",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 5",
+                    "year": null,
+                    "semester": "S5",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "LANG600",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG600_PACY - Soutien Anglais",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+                    "year": null,
+                    "semester": "S6",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "LANG700",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG700_PACY - Soutien Anglais",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 7",
+                    "year": null,
+                    "semester": "S7",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "LANG701",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG701_PACY - Anglais - Annecy",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 7",
+                    "year": null,
+                    "semester": "S7",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "LANG702",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG702_PACY - Langues vivantes (Niveau TOEIC atteint)",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 7",
+                    "year": null,
+                    "semester": "S7",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "LANG800",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG800_PACY - Soutien Anglais",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 8",
+                    "year": null,
+                    "semester": "S8",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "LANG802",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG802_PACY - Langues Vivantes (Niveau TOEIC atteint)",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 8",
+                    "year": null,
+                    "semester": "S8",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "LANG901",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "LANG901_PACY - Anglais - Annecy",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 9",
+                    "year": null,
+                    "semester": "S9",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "MATH641",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "MATH641_PACY - Mathématiques",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+                    "year": null,
+                    "semester": "S6",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "SHES601",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "SHES601_PACY - Gestion financière",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+                    "year": null,
+                    "semester": "S6",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        },
+        {
+            "code_moodle": "SHES602",
+            "nombre": 1,
+            "probleme": "Absent de la maquette",
+            "impact": "Traçabilité impossible",
+            "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle",
+            "examples": [
+                {
+                    "coursename": "SHES602_PACY - Initiation au Droit",
+                    "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+                    "year": null,
+                    "semester": "S6",
+                    "course_category": "TRANSVERSAL"
+                }
+            ]
+        }
+    ],
+    "normalized_courses": [
+        {
+            "coursename": "INFO731 Sécurité et Cryptographie",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 7",
+            "moodle_code": "INFO731",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO731_IDU",
+                "official_name": "Sécurité et Cryptographie"
+            }
+        },
+        {
+            "coursename": "DATA731 Modélisation Stochastique",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 7",
+            "moodle_code": "DATA731",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "DATA731_IDU",
+                "official_name": "Modélisation Stochastique"
+            }
+        },
+        {
+            "coursename": "DATA732 - Analyse et visualisation de données",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 7",
+            "moodle_code": "DATA732",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "DATA732_IDU",
+                "official_name": "Analyse et visualisation de données"
+            }
+        },
+        {
+            "coursename": "DATA831_IDU- Big Data",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 8",
+            "moodle_code": "DATA831",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "DATA831_IDU",
+                "official_name": "Big Data"
+            }
+        },
+        {
+            "coursename": "DATA832_IDU- Machine Learning",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 8",
+            "moodle_code": "DATA832",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "DATA832_IDU",
+                "official_name": "Machine Learning"
+            }
+        },
+        {
+            "coursename": "DATA931_IDU- Machine Learning",
+            "categorie": "Catégorie:IGE5 - Informatique, Données, Usages - IDU5 - Semestre 9",
+            "moodle_code": "DATA931",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU5",
+            "semester": "S9",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "DATA931_IDU",
+                "official_name": "Machine Learning"
+            }
+        },
+        {
+            "coursename": "DDRS501_PACY - Développement Durable",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 5",
+            "moodle_code": "DDRS501",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S5",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "EASI501_PACY - Electricité",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 5",
+            "moodle_code": "EASI501",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S5",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "INFO631 - Logique et Programmation",
+            "categorie": "Catégorie:IGE3 - Informatique, Données, Usages - IDU3 - Semestre 6",
+            "moodle_code": "INFO631",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU3",
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO631_IDU",
+                "official_name": "Logique et Programmation"
+            }
+        },
+        {
+            "coursename": "INFO632 - Systèmes d’exploitation et Virtualisation",
+            "categorie": "Catégorie:IGE3 - Informatique, Données, Usages - IDU3 - Semestre 6",
+            "moodle_code": "INFO632",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU3",
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO632_IDU",
+                "official_name": "Systèmes d’exploitation et Virtualisation"
+            }
+        },
+        {
+            "coursename": "INFO633_IDU- Bases de données et technologies web",
+            "categorie": "Catégorie:IGE3 - Informatique, Données, Usages - IDU3 - Semestre 6",
+            "moodle_code": "INFO633",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU3",
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO633_IDU",
+                "official_name": "Programmation bases de données et conception de site web"
+            }
+        },
+        {
+            "coursename": "INFO641_PACY - Conception et Programmation orientée objet",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+            "moodle_code": "INFO641",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "INFO732 - Comportement et Modélisation Dynamique",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 7",
+            "moodle_code": "INFO732",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO732_IDU",
+                "official_name": "Comportement et Modélisation Dynamique"
+            }
+        },
+        {
+            "coursename": "INFO734 - Développement Full Stack",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 7",
+            "moodle_code": "INFO734",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO734_IDU",
+                "official_name": "Développement Full Stack"
+            }
+        },
+        {
+            "coursename": "INFO743_PACY - Réseaux et systèmes répartis",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 7",
+            "moodle_code": "INFO743",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "INFO831_IDU- Informatique décisionnelle",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 8",
+            "moodle_code": "INFO831",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO831_IDU",
+                "official_name": "Informatique décisionnelle"
+            }
+        },
+        {
+            "coursename": "INFO832_IDU- Qualité et tests logiciel",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 8",
+            "moodle_code": "INFO832",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO832_IDU",
+                "official_name": "Qualité et tests logiciel"
+            }
+        },
+        {
+            "coursename": "INFO833_IDU- Systèmes distribués à large échelle",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 8",
+            "moodle_code": "INFO833",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO833_IDU",
+                "official_name": "Systèmes distribués à large échelle"
+            }
+        },
+        {
+            "coursename": "INFO834_IDU- Bases de données distribuées",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 8",
+            "moodle_code": "INFO834",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO834_IDU",
+                "official_name": "Bases de données distribuées"
+            }
+        },
+        {
+            "coursename": "INFO931_IDU- Optimisation et aide à la décision multicritère",
+            "categorie": "Catégorie:IGE5 - Informatique, Données, Usages - IDU5 - Semestre 9",
+            "moodle_code": "INFO931",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU5",
+            "semester": "S9",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO931_IDU",
+                "official_name": "Optimisation et aide à la décision multicritère"
+            }
+        },
+        {
+            "coursename": "INFO932_IDU- Calcul haute performance et Cloud Computing",
+            "categorie": "Catégorie:IGE5 - Informatique, Données, Usages - IDU5 - Semestre 9",
+            "moodle_code": "INFO932",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU5",
+            "semester": "S9",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "INFO932_IDU",
+                "official_name": "Calcul haute performance et Cloud Computing"
+            }
+        },
+        {
+            "coursename": "ISOC531 - Sociétés numériques",
+            "categorie": "Catégorie:IGE3 - Informatique, Données, Usages - IDU3 - Semestre 5",
+            "moodle_code": "ISOC531",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU3",
+            "semester": "S5",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "ISOC531_IDU",
+                "official_name": "Sociétés numériques"
+            }
+        },
+        {
+            "coursename": "ISOC631 - Plateformes collaboratives",
+            "categorie": "Catégorie:IGE3 - Informatique, Données, Usages - IDU3 - Semestre 6",
+            "moodle_code": "ISOC631",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU3",
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "ISOC631_IDU",
+                "official_name": "Plateformes collaboratives"
+            }
+        },
+        {
+            "coursename": "ISOC731 - Économie et gouvernance de la donnée",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 7",
+            "moodle_code": "ISOC731",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "ISOC731_IDU",
+                "official_name": "Économie et gouvernance de la donnée"
+            }
+        },
+        {
+            "coursename": "ISOC831_IDU- Dimension métiers",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 8",
+            "moodle_code": "ISOC831",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "ISOC831_IDU",
+                "official_name": "Dimension métiers"
+            }
+        },
+        {
+            "coursename": "ISOC931_IDU- Innovation et recherche",
+            "categorie": "Catégorie:IGE5 - Informatique, Données, Usages - IDU5 - Semestre 9",
+            "moodle_code": "ISOC931",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU5",
+            "semester": "S9",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "ISOC931_IDU",
+                "official_name": "Innovation et Recherche"
+            }
+        },
+        {
+            "coursename": "LANG500_PACY - Soutien Anglais",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 5",
+            "moodle_code": "LANG500",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S5",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG501_PACY - Anglais-Annecy",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 5",
+            "moodle_code": "LANG501",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S5",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG600_PACY - Soutien Anglais",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+            "moodle_code": "LANG600",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG601_PACY - Anglais (Niveau TOEIC non atteint)",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+            "moodle_code": "LANG601",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG601_PCHY - Anglais (niveau TOEIC non atteint)",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+            "moodle_code": "LANG601",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG700_PACY - Soutien Anglais",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 7",
+            "moodle_code": "LANG700",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG701_PACY - Anglais - Annecy",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 7",
+            "moodle_code": "LANG701",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG702_PACY - Langues vivantes (Niveau TOEIC atteint)",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 7",
+            "moodle_code": "LANG702",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG800_PACY - Soutien Anglais",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 8",
+            "moodle_code": "LANG800",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG802_PACY - Langues Vivantes (Niveau TOEIC atteint)",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 8",
+            "moodle_code": "LANG802",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "LANG901_PACY - Anglais - Annecy",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 9",
+            "moodle_code": "LANG901",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S9",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "MATH531 - Graphes et Langages",
+            "categorie": "Catégorie:IGE3 - Informatique, Données, Usages - IDU3 - Semestre 5",
+            "moodle_code": "MATH531",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU3",
+            "semester": "S5",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "MATH531_IDU",
+                "official_name": "Graphes et Langages"
+            }
+        },
+        {
+            "coursename": "MATH641_PACY - Mathématiques",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+            "moodle_code": "MATH641",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "PROJ531 - Gestion de projets",
+            "categorie": "Catégorie:IGE3 - Informatique, Données, Usages - IDU3 - Semestre 5",
+            "moodle_code": "PROJ531",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU3",
+            "semester": "S5",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "PROJ531_IDU",
+                "official_name": "Gestion de projets"
+            }
+        },
+        {
+            "coursename": "PROJ631 - Projet algorithmique",
+            "categorie": "Catégorie:IGE3 - Informatique, Données, Usages - IDU3 - Semestre 6",
+            "moodle_code": "PROJ631",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU3",
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "PROJ631_IDU",
+                "official_name": "Projet Algorithmique"
+            }
+        },
+        {
+            "coursename": "PROJ632 - Projet Data Science",
+            "categorie": "Catégorie:IGE3 - Informatique, Données, Usages - IDU3 - Semestre 6",
+            "moodle_code": "PROJ632",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU3",
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "PROJ632_IDU",
+                "official_name": "APP - Projet Data Science"
+            }
+        },
+        {
+            "coursename": "PROJ731 - Flux de Données et Accès Concurrents",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 7",
+            "moodle_code": "PROJ731",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S7",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "PROJ731_IDU",
+                "official_name": "APP Analyse et visualisation de données"
+            }
+        },
+        {
+            "coursename": "PROJ831_IDU- Projet Informatique Données et Usages",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 8",
+            "moodle_code": "PROJ831",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "PROJ831_IDU",
+                "official_name": "APP Projet Informatique Données et Usages"
+            }
+        },
+        {
+            "coursename": "PROJ832_IDU- Flux de Données et Accès Concurrents",
+            "categorie": "Catégorie:IGE4 - Informatique, Données, Usages - IDU4 - Semestre 8",
+            "moodle_code": "PROJ832",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU4",
+            "semester": "S8",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "PROJ832_IDU",
+                "official_name": "Flux de Données et Accès Concurrents"
+            }
+        },
+        {
+            "coursename": "PROJ901_PACY - Projet Recherche et Développement -IDU5 - SNI5 - MMT5",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 9",
+            "moodle_code": "PROJ901",
+            "course_category": "TRANSVERSAL",
+            "year": "IDU5",
+            "semester": "S9",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "PROJ901_PACY",
+                "official_name": "Projet Recherche et Développement "
+            }
+        },
+        {
+            "coursename": "PROJ931_IDU- Projet Usages",
+            "categorie": "Catégorie:IGE5 - Informatique, Données, Usages - IDU5 - Semestre 9",
+            "moodle_code": "PROJ931",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU5",
+            "semester": "S9",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "PROJ931_IDU",
+                "official_name": "Projet Usages"
+            }
+        },
+        {
+            "coursename": "PROJ932_IDU- Projet Data Science",
+            "categorie": "Catégorie:IGE5 - Informatique, Données, Usages - IDU5 - Semestre 9",
+            "moodle_code": "PROJ932",
+            "course_category": "TEACHING_IDU",
+            "year": "IDU5",
+            "semester": "S9",
+            "traceability": {
+                "exists_in_maquette": true,
+                "official_code": "PROJ932_IDU",
+                "official_name": "Projet Data Science"
+            }
+        },
+        {
+            "coursename": "SHES601_PACY - Gestion financière",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+            "moodle_code": "SHES601",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        },
+        {
+            "coursename": "SHES602_PACY - Initiation au Droit",
+            "categorie": "Catégorie:Cours Transversaux - Semestre 6",
+            "moodle_code": "SHES602",
+            "course_category": "TRANSVERSAL",
+            "year": null,
+            "semester": "S6",
+            "traceability": {
+                "exists_in_maquette": false,
+                "official_code": null,
+                "official_name": null
+            }
+        }
+    ],
+    "dashboard_ready": {
+        "table_rows": [
+            {
+                "code_moodle": "LANG601",
+                "nombre": 2,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "DDRS501",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "EASI501",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "INFO641",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "INFO743",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "LANG500",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "LANG501",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "LANG600",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "LANG700",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "LANG701",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "LANG702",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "LANG800",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "LANG802",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "LANG901",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "MATH641",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "SHES601",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            },
+            {
+                "code_moodle": "SHES602",
+                "nombre": 1,
+                "probleme": "Absent de la maquette",
+                "impact": "Traçabilité impossible",
+                "interpretation": "Cours présent dans Moodle mais absent de la maquette officielle"
+            }
+        ]
+    }
+}
